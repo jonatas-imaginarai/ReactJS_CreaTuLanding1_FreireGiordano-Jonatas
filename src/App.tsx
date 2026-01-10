@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import { Button } from "@/components/ui/button"
+import { NavBar } from './components/NavBar/NavBar.tsx'
 import './App.css'
 
 function App() {
 
   return (
-    <div>
-
-    </div>
+    <>
+      <NavBar />
+    </>
   )
 }
 
