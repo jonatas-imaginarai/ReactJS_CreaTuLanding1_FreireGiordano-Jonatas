@@ -7,8 +7,10 @@ const classNameStyleButtonNavBar='hover:bg-red-100 p-2 rounded-sm cursor-pointer
 
 export function ButtonNavBar ( { label, className }: ButtonNavBarProps ) {
     return (
-        <button className={`${className} ${classNameStyleButtonNavBar}`}>
-            {label}
-        </button>
+        <>
+            <button className={`${classNameStyleButtonNavBar} ${className}`}>
+                {label}
+            </button>
+        </>
     )
 }

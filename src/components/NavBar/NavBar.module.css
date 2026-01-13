@@ -27,8 +27,4 @@
     gap: 1rem;
     align-items: center;
     justify-content: center;
-
-    button {
-        transition: 0.1s;
-    }
 }
